@@ -1,0 +1,67 @@
+## Termite Styling Program
+## Author : Aditya Shakya
+
+[options]
+
+allow_bold = true
+audible_bell = true
+browser = xdg-open
+clickable_url = true
+cursor_blink = system
+cursor_shape = block
+dynamic_title = true
+filter_unmatched_urls = true
+font = MesloLGS NF Regular 12
+geometry = 480x280
+icon_name = terminal
+modify_other_keys = false
+mouse_autohide = false
+scroll_on_output = false
+scroll_on_keystroke = true
+scrollback_lines = 15000
+size_hints = false
+search_wrap = true
+urgent_on_bell = true
+highlight = #30343e
+
+[colors]
+
+# https://github.com/chriskempson/base16-xresources/blob/master/base16-summerfruit.dark.256.xresources
+# Base16 Summerfruit
+# Scheme: Christopher Corley (http://cscorley.github.io/)
+foreground=#D0D0D0
+background=rgba(150, 42, 60, 0.8)
+cursor=#D0D0D0
+
+# black
+color0  = #2b2b2b
+color8  = #cdcdcd
+
+# red
+color1  = #bf51c2
+color9  = #f577fa
+
+# green
+color2  = #1f90ad
+color10 = #4dd3f5
+
+# yellow
+color3  = #2ebf89
+color11 = #3ae5a5
+
+# blue
+color4  = #31b61e
+color12 = #7cec34
+
+# magenta
+color5  = #da8759
+color13 = #fbaa60
+
+# cyan
+color6  = #a9a01c
+color14 = #f1e525
+
+# white
+color7  = #21b253
+color15 = #7ef9a8
+
